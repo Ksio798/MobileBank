@@ -1,4 +1,5 @@
 ﻿@page "/Loginpage"
+@inject NavigationManager NavigationManager
 
 <div class="page-background-class">
     <p id="wbs"><font color="#9b59b6" face="Helvetica">WorldSkills Bank</font></p>
@@ -17,7 +18,7 @@
     <button type="button" class="inp" @onclick="ShowLoginDialog">ВОЙТИ</button>
 
 
-    <button type="button" class="ob">
+    <button type="button" class="ob" @onclick="NavigateToAddressPage">
 
         <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -34,7 +35,7 @@
     </button>
 
 
-    <button type="button" class="currency_rate" >
+    <button type="button" class="currency_rate" @onclick="NavigateToCoursePage">
         <svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
             <defs>
@@ -78,5 +79,17 @@
 {
     <p>Вы вошли как: @login</p>
 }
+@code {
 
+    private void NavigateToAddressPage()
+    {
+
+        NavigationManager.NavigateTo("/address");
+    }
+    private void NavigateToCoursePage()
+    {
+
+        NavigationManager.NavigateTo("/course");
+    }
+}
 
