@@ -1,0 +1,19 @@
+html, body {
+    min-width: 1000px;
+}
+
+table {
+    height: 100vh;
+    position: relative;
+    left: -23px;
+    width: 100vw;
+    border-collapse: collapse;
+    font-size: 13px;
+    cellpadding: 10;
+}
+
+tr {
+    border: solid;
+    border-width: 1px 0;
+    border-color: darkgray;
+}

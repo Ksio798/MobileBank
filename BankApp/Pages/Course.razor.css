@@ -1,0 +1,31 @@
+html, body {
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
+table {
+    height: 100vh;
+    position: relative;
+    top: -18px;
+    left: -23px;
+    width: 100vw;
+    border-collapse: collapse;
+    font-size: 16px;
+    cellpadding: 5;
+}
+
+tr {
+    border: solid;
+    border-width: 1px 0;
+    border-color: darkgray;
+}
+
+th {
+    color: #8E8E93;
+    background: #EFEFF4;
+}
+
+p {
+    font-size: 12px;
+    color: #1C42B0;
+}
