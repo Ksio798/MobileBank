@@ -12,132 +12,20 @@
 <table >
     <col width="570" />
     <col width="430" />
-    <tr >
-        <td>
-            <h>с. Чапаево, ул. Николаева 1</h>
-            <br />
-            <h> Отделение</h>
- 
-        </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
+    @foreach (var cashMachine in db.CashMachines)
+    {
+
     <tr>
         <td>
-            <h>Якутск, ул. Вавилова, д.7</h>
+            <h>@cashMachine.Addres</h>
             <br />
-            <h>Отделение</h>
+            <h>@cashMachine.Otdel &ensp;@cashMachine.Open</h>
 
         </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
-        
-    <tr>
-        <td>
-            <h>Новосибирск, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
+        <td align="right" valign="bottom"><p>Часы работы:@cashMachine.OpenTime.ToString("hh\\:mm")-@cashMachine.CloseTime.ToString("hh\\:mm")</p></td>
 
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
     </tr>
-    <tr>
-        <td>
-            <h>Иркутск, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Владивосток, ул. Вавилова, д.7</h>
-            <br />
-            <h>Отделение</h>
-        </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Отделение</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Отделение</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Отделение</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:09:00-20:00</td>
-    </tr>
-    <tr>
-        <td>
-            <h>Москва, ул. Вавилова, д.7</h>
-            <br />
-            <h>Банкомат</h>
-
-        </td>
-        <td align="right" valign="bottom">Часы работы:00:00-00:00</td>
-    </tr>
+    }
 </table>
 @code {
     public void GoToLoginPage()
