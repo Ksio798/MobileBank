@@ -19,7 +19,20 @@
         <td>
             <h>@cashMachine.Addres</h>
             <br />
-            <h>@cashMachine.Otdel &ensp;@cashMachine.Open</h>
+            <h>@cashMachine.Otdel &ensp;
+                @if (cashMachine.OpenTime != cashMachine.CloseTime && DateTime.Now.TimeOfDay >= cashMachine.OpenTime && DateTime.Now.TimeOfDay <= cashMachine.CloseTime)
+                {
+                    <h style="color: green;">Работает</h>
+                }
+                else if (cashMachine.OpenTime != cashMachine.CloseTime)
+                {
+                    <h style="color: red;">Закрыто</h>
+                }
+                else
+                {
+                    <h style="color: green;">Работает</h>
+                }
+            </h>
 
         </td>
         <td align="right" valign="bottom"><p>Часы работы:@cashMachine.OpenTime.ToString("hh\\:mm")-@cashMachine.CloseTime.ToString("hh\\:mm")</p></td>
