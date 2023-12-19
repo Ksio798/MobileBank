@@ -1,0 +1,12 @@
+﻿body {
+}
+
+.inp1 {
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 0;
+    color: black;
+    font-size: 25px;
+    width: 90vw;
+    height: fit-content;
+}

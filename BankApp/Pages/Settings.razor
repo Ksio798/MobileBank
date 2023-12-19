@@ -1,0 +1,34 @@
+﻿@page "/Settings"
+@inject NavigationManager NavigationManager
+
+@*<button type="button" name="popup-button">Изменение пароля</button>
+<button type="button" name="popup-button1">Изменение логина</button>
+<button type="button" name="popup-button2">История посещений</button>
+<button type="button" name="popup-button3">Информация о приложении</button>
+<button type="button" name="popup-button3">Выход</button>*@
+
+
+<button type="button" class="inp1" >Изменение пароля</button>
+<button type="button" class="inp1">Изменение логина</button>
+<button type="button" class="inp1" @onclick="NavigateToCoursePageHis">История посещений</button>
+<button type="button" class="inp1" @onclick="NavigateToCoursePageInf">Информация о приложении</button>
+<button type="button" class="inp1">Выход</button>
+
+@code{
+
+	private void NavigateToCoursePageInf()
+	{
+		NavigationManager.NavigateTo("/Information");
+	}
+
+	private void NavigateToCoursePageHis()
+	{
+		NavigationManager.NavigateTo("/History");
+	}
+
+}
+
+
+
+
+
