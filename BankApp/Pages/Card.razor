@@ -1,0 +1,26 @@
+@page "/"
+@using BankApp.Data
+@inject Database db
+
+<div class="main">
+        <div id="rectangle">
+            <div>@db.Cards[0].Name</div>
+            <div>@db.Cards[0].Number</div>
+            <div>@db.Cards[0].MoneyCount рублей</div>
+            <div>@db.Cards[0].System</div>
+        </div>
+    <button class="aka">Пополнить</button>
+    <button class="midori">Перевести</button>
+    <br />
+    <br />
+    <br />
+</div>
+
+<div>
+    <a href="/history/card">
+        <button class="list">История операций</button>
+    </a><br />
+    <button class="list">Заблокировать</button><br />
+    <button class="list">Переименовать</button>
+
+</div>

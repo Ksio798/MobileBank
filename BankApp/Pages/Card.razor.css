@@ -1,0 +1,23 @@
+.main{
+    background: purple;
+}
+
+.midori{
+    background-color: green;
+    color: white;
+}
+
+.aka {
+    background-color: red;
+    color: white;
+}
+
+.list{
+    background-color: white;
+}
+
+#rectangle {
+    width: 200px;
+    height: 100px;
+    background: white;
+}

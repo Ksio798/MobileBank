@@ -1,6 +1,12 @@
-п»ї@page "/History"
+@page "/history/card"
+@using BankApp.Data
+@inject Database db
 
-<h1>History</h1>
-@code {
-
-}
+<div>
+    @foreach(var item in @db.Credits)
+    {
+        <div>
+            <b>@item.CreditType</b> Дата: @item.PayData <b>@item.MoneyCount рублей</b>
+        </div>
+    }
+</div>
