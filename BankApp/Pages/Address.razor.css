@@ -1,21 +1,24 @@
-html, body {
-    min-width: 1000px;
-}
-
 table {
     height: 100vh;
     position: relative;
-    left: -23px;
     width: 100vw;
+    max-width: 100%;
     border-collapse: collapse;
     font-size: 13px;
-    cellpadding: 10;
+    padding: 10px;
 }
 
 tr {
     border: solid;
     border-width: 1px 0;
     border-color: darkgray;
+}
+h {
+    font-size: 0.9em;
+}
+
+p {
+    font-size: 0.8em;
 }
 .fixed-button {
     position: fixed;
