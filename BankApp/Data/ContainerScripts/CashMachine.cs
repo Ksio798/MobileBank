@@ -9,7 +9,9 @@ namespace BankApp.Data.ContainerScripts
 	public class CashMachine
 	{
 		public string Addres;
-		public System.DateTime OpenTime;
-		public System.DateTime CloseTime;
+		public string Otdel;
+		public Boolean Open;
+		public System.TimeSpan OpenTime;
+		public System.TimeSpan CloseTime;
 	}
 }
