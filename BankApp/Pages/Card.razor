@@ -1,4 +1,4 @@
-@page "/"
+@page "/card"
 @using BankApp.Data
 @inject Database db
 
@@ -6,11 +6,11 @@
         <div id="rectangle">
             <div>@db.Cards[0].Name</div>
             <div>@db.Cards[0].Number</div>
-            <div>@db.Cards[0].MoneyCount рублей</div>
+            <div>@db.Cards[0].MoneyCount СЂСѓР±Р»РµР№</div>
             <div>@db.Cards[0].System</div>
         </div>
-    <button class="aka">Пополнить</button>
-    <button class="midori">Перевести</button>
+    <button class="aka">РџРѕРїРѕР»РЅРёС‚СЊ</button>
+    <button class="midori">РџРµСЂРµРІРµСЃС‚Рё</button>
     <br />
     <br />
     <br />
@@ -18,9 +18,9 @@
 
 <div>
     <a href="/history/card">
-        <button class="list">История операций</button>
+        <button class="list">РСЃС‚РѕСЂРёСЏ РѕРїРµСЂР°С†РёР№</button>
     </a><br />
-    <button class="list">Заблокировать</button><br />
-    <button class="list">Переименовать</button>
+    <button class="list">Р—Р°Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ</button><br />
+    <button class="list">РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ</button>
 
 </div>
