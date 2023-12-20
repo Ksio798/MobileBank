@@ -10,7 +10,7 @@ namespace BankApp.Data.ContainerScripts
 	{
 		public bool IsBlocked = false;
 		public int Number;
-		public float MoneyCount;
+		public double MoneyCount;
 		public string Name;
 	}
 }

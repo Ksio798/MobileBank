@@ -9,7 +9,7 @@ namespace BankApp.Data.ContainerScripts
 	public class Credit
 	{
 		public string CreditType;
-		public float MoneyCount;
+		public double MoneyCount;
 		public string PayData;
 	}
 }

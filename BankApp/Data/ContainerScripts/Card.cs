@@ -15,5 +15,9 @@ namespace BankApp.Data.ContainerScripts
 	public class Card : BankAccount
 	{
 		public CardSystem System;
-	}
+        public double Money;
+        public int Number;
+        public string Name;
+        public string svgcode;
+    }
 }
