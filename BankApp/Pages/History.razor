@@ -5,8 +5,8 @@
 <div>
     @foreach(var item in @db.Credits)
     {
-        <div>
+        <button class="list">
             <b>@item.CreditType</b> Дата: @item.PayData <b>@item.MoneyCount рублей</b>
-        </div>
+        </button>
     }
 </div>

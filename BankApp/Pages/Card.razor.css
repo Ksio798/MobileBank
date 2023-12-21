@@ -2,22 +2,46 @@
     background: purple;
 }
 
-.midori{
-    background-color: green;
-    color: white;
-}
-
-.aka {
-    background-color: red;
-    color: white;
-}
-
-.list{
+.list {
     background-color: white;
+    border-color: lightgray;
+    border-radius: 0;
+    color: blue;
+    font-size: 4vw;
+    width: 90vw;
+    height: fit-content;
+}
+
+.cardinfo{
+    font-size: 13px;
+    margin: 15px;
+    margin-top: 7px;
+}
+
+.blockinfo {
+    color: red;
+    margin: 15px;
+    font-size: 22px;
+}
+.blockinfo1 {
+    color: white;
+    margin: 15px;
+    font-size: 22px;
 }
 
 #rectangle {
-    width: 200px;
-    height: 100px;
+    width: 275px;
+    height: 175px;
+    margin: auto;
     background: white;
+    color: blue;
+    border-radius: 10px;
+}
+
+#buttons{
+    text-align: center;
+}
+
+#inlineinfo{
+    display: inline-block;
 }

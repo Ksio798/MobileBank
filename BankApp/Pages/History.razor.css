@@ -1,0 +1,8 @@
+.list {
+    background-color: white;
+    border-color: lightgray;
+    border-radius: 0;
+    font-size: 3vw;
+    width: 90vw;
+    height: fit-content;
+}
