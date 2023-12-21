@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\LayoutStyle.css",
+      "PackagePath": "staticwebassets\\css\\LayoutStyle.css"
+    },
+    {
+      "Id": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\LoginPStyle.css",
+      "PackagePath": "staticwebassets\\css\\LoginPStyle.css"
+    },
+    {
+      "Id": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\MainPageStyle.css",
+      "PackagePath": "staticwebassets\\css\\MainPageStyle.css"
+    },
+    {
+      "Id": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\SettingsStyle.css",
+      "PackagePath": "staticwebassets\\css\\SettingsStyle.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BankWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BankWebsite.props",
+      "PackagePath": "build\\BankWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BankWebsite.props",
+      "PackagePath": "buildMultiTargeting\\BankWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BankWebsite.props",
+      "PackagePath": "buildTransitive\\BankWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

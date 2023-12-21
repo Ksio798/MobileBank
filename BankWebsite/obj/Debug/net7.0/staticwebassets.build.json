@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "7ra9hydJnJH5kwZfhfwojVcJcYRBJptQd+K5BsAlJng=",
+  "Source": "BankWebsite",
+  "BasePath": "_content/BankWebsite",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BankWebsite\\wwwroot",
+      "Source": "BankWebsite",
+      "ContentRoot": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\",
+      "BasePath": "_content/BankWebsite",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\LayoutStyle.css",
+      "SourceId": "BankWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\",
+      "BasePath": "_content/BankWebsite",
+      "RelativePath": "css/LayoutStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LayoutStyle.css"
+    },
+    {
+      "Identity": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\LoginPStyle.css",
+      "SourceId": "BankWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\",
+      "BasePath": "_content/BankWebsite",
+      "RelativePath": "css/LoginPStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\LoginPStyle.css"
+    },
+    {
+      "Identity": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\MainPageStyle.css",
+      "SourceId": "BankWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\",
+      "BasePath": "_content/BankWebsite",
+      "RelativePath": "css/MainPageStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MainPageStyle.css"
+    },
+    {
+      "Identity": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\css\\SettingsStyle.css",
+      "SourceId": "BankWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\wwwroot\\",
+      "BasePath": "_content/BankWebsite",
+      "RelativePath": "css/SettingsStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SettingsStyle.css"
+    }
+  ]
+}

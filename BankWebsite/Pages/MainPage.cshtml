@@ -1,0 +1,56 @@
+﻿@page
+@model BankWebsite.Pages.MainPageModel
+@using BankWedsite.Data;
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="css/MainPageStyle.css" asp-append-version="true"> 
+
+<div class="page">
+    <main>
+        <div class="top-row px-4">
+            <a>МОИ КАРТЫ</a>
+        </div>
+    </main>
+</div>
+<hr size="6">
+@foreach (var Card in Database.Instans.Cards)
+{
+    <p>@Card.Name</p> 
+    <p align="right">@Card.Money<a> рублей</a></p>
+    <p><img src="@Card.svgcode"><a>@Card.Number</a></p>
+    <hr size="6">
+}
+
+<div class="page">
+    <main>
+        <div class="top-row px-4">
+            <a>МОИ СЧЕТА</a>
+        </div>
+    </main>
+</div>
+<hr size="6">
+@foreach (var BankAccount in Database.Instans.BankAccounts)
+{
+    <p>@BankAccount.Name</p>
+    <p align="right">@BankAccount.MoneyCount<a> рублей</a></p>
+    <p>@BankAccount.Number</p>
+    <hr size="6">
+}
+
+<div class="page">
+    <main>
+        <div class="top-row px-4">
+            <a>МОИ КРЕДИТЫ</a>
+        </div>
+    </main>
+</div>
+<hr size="6">
+@foreach (var Credit in Database.Instans.Credits)
+{
+    <p>@Credit.CreditType</p>
+    <p align="right">@Credit.MoneyCount<a> рублей</a></p>
+    <p><a>Платеж </a>@Credit.PayData</p>
+    <hr size="6">
+}

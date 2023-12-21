@@ -1,0 +1,19 @@
+﻿@page
+@model BankWebsite.Pages.EnterPageModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+}
+
+<div class="addText">
+	<div class="addTextTitle">Вход</div>
+	<form method="post">
+		<ul>
+			<li><div>Введите логин</div></li>
+			<li><input type="text" name="username" required/></li>
+			<li><div>Введите пароль</div></li>
+			<li><input type="text" name="password" required/></li>
+			<li><input type="submit" value="Отправить"/></li>
+		</ul>
+	</form>
+
+</div>

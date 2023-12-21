@@ -9,6 +9,8 @@ namespace BankWedsite.Data
 {
 	public class Database
 	{
+        public static Database Instans = null;
+        
 		public string PersonFullName = "Иван Иванович Иванов";
 		public string Login = "UserLogin";
 		public string Password = "12345678";

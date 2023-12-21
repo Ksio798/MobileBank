@@ -15,3 +15,47 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = A:\ProjectsC#\MobileBank\BankWebsite
 build_property._RazorSourceGeneratorDebug = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Address.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkcmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Course.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/EnterPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50ZXJQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/EntersTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW50ZXJzVGltZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Information.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Loginpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW5wYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/MainPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpblBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Settings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2V0dGluZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/Shared/_LayoutFirst.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRGaXJzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/ProjectsC\#/MobileBank/BankWebsite/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

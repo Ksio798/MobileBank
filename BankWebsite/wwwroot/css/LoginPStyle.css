@@ -1,0 +1,49 @@
+﻿.Main {
+    border-radius: 20px;
+    background-color: #d8d6d6;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.Content {
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.Button {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 9px;
+    font-size: 22px;
+    width: 400px;
+    height: 100px;
+}
+
+.EnterButton {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #1C42B0;
+    border: none;
+    border-radius: 9px;
+    font-size: 22px;
+    width: 400px;
+    height: 100px;
+    text-decoration: underline;
+}
+
+a:active,
+a:hover,
+a {
+    text-decoration: underline;
+    color: black;
+}
