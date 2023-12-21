@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
-namespace BankApp.Components.Pages
+namespace BankApp.Pages
 {
     public partial class  Loginpage: ComponentBase
     {
