@@ -68,6 +68,9 @@ body {
     font-size:14px;
     color: dimgrey;
 }
+.message{
+    color:red;
+}
 
 .dialog-backdrop {
     position: fixed;
