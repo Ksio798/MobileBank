@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
-namespace MauiApp1.Components.Pages
+namespace BankApp.Components.Pages
 {
     public partial class  Component1: ComponentBase
     {
