@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 namespace MauiApp1.Components.Pages
 {
-    public partial class Loginpage : ComponentBase
+    public partial class  Component1: ComponentBase
     {
         private bool showDialog = false;
         private string login = "";
         private string password = "";
         private bool loggedIn = false;
-
+        private string message = "";
         private void ShowLoginDialog()
         {
             showDialog = true;
@@ -20,11 +20,18 @@ namespace MauiApp1.Components.Pages
 
         private void Login()
         {
-            // Здесь можно добавить обработку входа пользователя
-            // на основе введенного логина и пароля
-
+            message = "";
             showDialog = false;
             loggedIn = true;
+            if(login==db.Login && password==db.Password) {
+                NavigationManager.NavigateTo("/weather"); 
+            }
+            else
+            {
+                showDialog = true; 
+                message = "Неверно введен логин или пароль";
+            }
+            
         }
 
         private void Cancel()
