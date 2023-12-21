@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "W97PZ2LNyuJ6SfWOq2jhJSCecO+Ojn60efskiJtmTvOyi3icP4u1ZMDpSkyyGKBocCRgv88PhiQCtIpPRRr6FA==",
+  "success": true,
+  "projectFilePath": "A:\\ProjectsC#\\MobileBank\\BankWebsite\\BankWebsite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}
