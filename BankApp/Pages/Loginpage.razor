@@ -1,5 +1,7 @@
 ﻿@page "/Loginpage"
 @inject NavigationManager NavigationManager
+@using MauiApp1.Data
+@inject Database db
 
 <div class="page-background-class">
     <p id="wbs"><font color="#9b59b6" face="Helvetica">WorldSkills Bank</font></p>
@@ -69,6 +71,7 @@
                 <label for="password">Пароль:</label>
                 <input id="password" type="password" class="form-control" @bind="@password">
             </div>
+            <p class="message">@message</p>
             <button @onclick="Login">Войти</button>
             <button @onclick="Cancel">Отмена</button>
         </div>
