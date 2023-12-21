@@ -24,7 +24,7 @@ namespace MauiApp1.Components.Pages
             showDialog = false;
             loggedIn = true;
             if(login==db.Login && password==db.Password) {
-                NavigationManager.NavigateTo("/weather"); 
+                NavigationManager.NavigateTo("/"); 
             }
             else
             {
