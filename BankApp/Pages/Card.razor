@@ -10,13 +10,13 @@
         <div class="cardinfo">@db.Cards[0].Number</div>
         @if (db.Cards[0].IsBlocked == true)
         {
-            <div class="blockinfo">Карта заблокирована</div>
+            <div class="blockinfo">РљР°СЂС‚Р° Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅР°Е•</div>
         }
         else
         {
             <div class="blockinfo1">sas</div>
         }
-        <div class="cardinfo" id="inlineinfo">@db.Cards[0].MoneyCount рублей</div>
+        <div class="cardinfo" id="inlineinfo">@db.Cards[0].MoneyCount СЂСѓР±Р»РµР№</div>
         @if (@Enum.GetName(db.Cards[0].System) == "MIR")
         {
             <img class="cardinfo" id="inlineinfo" src="/css/img/MIR48.png">
@@ -34,12 +34,12 @@
     <div id="buttons">
         @if (db.Cards[0].IsBlocked == false)
         {
-            <button class="btn btn-danger">Пополнить</button>
-            <button class="btn btn-success">Перевести</button>
+            <button class="btn btn-danger">РџРѕРїРѕР»РЅРёС‚СЊ</button>
+            <button class="btn btn-success">РџРµСЂРµРІРµСЃС‚Рё</button>
         }
         @if (db.Cards[0].IsBlocked == true){
-            <button class="btn btn-danger disabled">Пополнить</button>
-            <button class="btn btn-success disabled">Перевести</button>
+            <button class="btn btn-danger disabled">РџРѕРїРѕР»РЅРёС‚СЊ</button>
+            <button class="btn btn-success disabled">РџРµСЂРµРІРµСЃС‚Рё</button>
         }
     </div>
     <br />
@@ -50,23 +50,23 @@
 {
     <div>
         <a href="/history/card">
-            <button class="list">История операций</button>
+            <button class="list">РСЃС‚РѕСЂРёСЏ РѕРїРµСЂР°С†РёР№</button>
         </a><br />
-        <button class="list" @onclick="SetBlock">Заблокировать</button><br />
-        <button class="list" @onclick="ReName">Переименовать</button>
+        <button class="list" @onclick="SetBlock">Р—Р°Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ</button><br />
+        <button class="list" @onclick="ReName">РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ</button>
     </div>
 }
 
 @code{
     private async void ReName(){
-        string name = await Application.Current.MainPage.DisplayPromptAsync("Переименование карты", "Введите новое название", "Переименовать", "Отмена", "Имя");
+        string name = await Application.Current.MainPage.DisplayPromptAsync("РџРµСЂРµРёРјРµРЅРѕРІР°РЅРёРµ РєР°СЂС‚С‹", "Р’РІРµРґРёС‚Рµ РЅРѕРІРѕРµ РЅР°Р·РІР°РЅРёРµ", "РџРµСЂРµРёРјРµРЅРѕРІР°С‚СЊ", "РћС‚РјРµРЅР°", "РРјСЏ");
         if (name is null||string.IsNullOrEmpty(name)) return;
         else db.Cards[0].Name = name;
     }
 
     private async void SetBlock()
     {
-        string pass = await Application.Current.MainPage.DisplayPromptAsync("Блокирование карты", "Вы уверены, что хотите заблокировать карту?", "Заблокировать", "Отмена", "Пароль");
+        string pass = await Application.Current.MainPage.DisplayPromptAsync("Р‘Р»РѕРєРёСЂРѕРІР°РЅРёРµ РєР°СЂС‚С‹", "Р’С‹ СѓРІРµСЂРµРЅС‹, С‡С‚Рѕ С…РѕС‚РёС‚Рµ Р·Р°Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ РєР°СЂС‚Сѓ?", "Р—Р°Р±Р»РѕРєРёСЂРѕРІР°С‚СЊ", "РћС‚РјРµРЅР°", "РџР°СЂРѕР»СЊ");
         if (pass is null || string.IsNullOrEmpty(pass)) return;
         else if (pass == db.Password) db.Cards[0].IsBlocked = true;
     }
