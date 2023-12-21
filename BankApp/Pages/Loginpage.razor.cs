@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components;
 namespace BankApp.Components.Pages
 {
-    public partial class  Component1: ComponentBase
+    public partial class  Loginpage: ComponentBase
     {
         private bool showDialog = false;
         private string login = "";
